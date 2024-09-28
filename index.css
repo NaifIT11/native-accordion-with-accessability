@@ -34,10 +34,12 @@ button{
     padding: 1rem;
     height: 55px;
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    min-height: 0;
 }
+
 .accordions__item.open{
-    height: 180px;
-    transition: height 0.3 ease-in-out;
+    min-height: 180px;
 }
 
 .accordion-trigger{
