@@ -36,7 +36,9 @@ button{
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     min-height: 0;
-    border-bottom: 1px solid rgb( 0 0 0 / 0.4)
+    &:not(:last-child){
+        border-bottom: 1px solid rgb( 0 0 0 / 0.4);
+    }
 }
 
 .accordions__item.open{
