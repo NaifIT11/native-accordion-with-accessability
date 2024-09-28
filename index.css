@@ -34,10 +34,10 @@ button{
     padding: 1rem;
     height: 55px;
     overflow: hidden;
-    transition: height 0.3 ease-in-out;
 }
 .accordions__item.open{
     height: 180px;
+    transition: height 0.3 ease-in-out;
 }
 
 .accordion-trigger{
@@ -49,4 +49,9 @@ button{
 
 .accordion-content{
     padding: 1rem;
+}
+
+.arrow-icon.open{
+    rotate: 180deg;
+    transition: rotate 0.3s ease-in-out;
 }
